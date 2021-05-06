@@ -1,0 +1,19 @@
+Algoritmo NotaAlumno
+	Definir a,b,c,d Como Entero ;
+	Definir e Como Real ;
+	Escribir  "Ingrese Nota 1 del alunmno : " ;
+	Leer a;
+	Escribir  "Ingrese Nota 2 del alunmno : " ;
+	Leer b;
+	Escribir  "Ingrese Nota 3 del alunmno : " ;
+	Leer c;
+	Escribir  "Ingrese Nota 4 del alunmno : " ;
+	Leer d;
+	e<-(a+b+c+d)/4 ; 
+	Escribir "El PROMEDIO ES : " ,e;
+	Si e>60 Entonces
+		Escribir "USTED APROBO"
+	SiNo
+		Escribir "USTED REPROBO"
+	Fin Si
+FinAlgoritmo
